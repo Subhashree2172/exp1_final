@@ -107,14 +107,29 @@ Setup consists of a function generator as signal source which generates signal o
 12. The selected waveform in a function generator is available at
 
 	a. VCO output
-	b. **Output Jack** 
+	b. **Output Jack**
 	c. Function selector
 
 #### Allow Pitfalls: NA
 
 #### Equations and Fomulas:
-- Period of a waveform is obtained by
+- **Period of a waveform is obtained by:**
 - T = number of divisions occupied by 1 cycle×( time ⁄ division )
+- **Peak-to-peak Value** = 2 × Peak Value  
+
+- **RMS value is obtained by:**
+1.Sine wave RMS value = Peak Value / √2
+2.Cosine wave RMS value = Peak Value / √2
+3.Square wave RMS value = Peak Value  
+4.Sawtooth wave RMS value = Peak Value / √3
+5.Triangular wave RMS value = Peak Value / √3
+
+- **The Average value is obtained by:**
+1.Sine wave average value = 2 × Peak Value / π
+2.Cosine wave average value = 2 × Peak Value / π
+3.Square wave average value = Peak Value  
+4.Sawtooth wave average value = Peak Value / 2 
+5.Triangular wave average value = Peak Value / 2
 
 #### 3.Flowchart:
 

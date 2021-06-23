@@ -52,37 +52,37 @@
 
 1.  How do you calculate the RMS voltage of a Sine Wave?
 
-    a. **Peak Voltage / √2** <br />
-    b. Peak Voltage / √7  <br />
-    c. Peak Voltage / 2  <br />
-    d. Peak Voltage / √3 <br />
+    a. **Peak Voltage / √2**
+    b. Peak Voltage / √7  
+    c. Peak Voltage / 2
+    d. Peak Voltage / √3
 
 2.  If the peak-to-peak voltage value of sine wave is 60V what is the RMS value?
 
-    a. 42.42V <br />
-    b. 60V <br />
-    c. 30V <br />
+    a. 42.42V
+    b. 60V
+    c. 30V
     d. **21.21V**
 
 3.  If frequency = 10Hz what is the time period?
 
-    a. 10s <br />
-    b. 20s <br />
-    c. 0.2s <br />
+    a. 10s
+    b. 20s
+    c. 0.2s
     d. **0.1s**
 
 4.  The total area under the complete sine wave curve divided by the distance of the curve is known as?
 
-    a. Peak-to-peak value <br />
-    b. RMS value <br />
-    c. **Average value** <br />
+    a. Peak-to-peak value
+    b. RMS value
+    c. **Average value**
     d. Effective value
 
 5.  What is the RMS value of sawtooth wave if the peak value is 20V?
 
-    a. 20V <br />
-    b. 5.77V <br />
-    c. 23.09V <br />
+    a. 20V
+    b. 5.77V
+    c. 23.09V
     d. **11.54V**
 
 ## 4.Simulator Interactions:

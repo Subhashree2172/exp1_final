@@ -35,79 +35,79 @@ Setup consists of a function generator as signal source which generates signal o
 #### Set Challenges / Questions / Complexity / Variations
 1. How is the waveform adjusted?
 
-	a. by adjusting the voltage <br />
-	b. **through shift controls** <br />
-	c. by reducing the current <br />
+	a. by adjusting the voltage
+	b. **through shift controls**
+	c. by reducing the current
 	d. by means of a galvanometer
 
 2. How is error in measurement reduced?
 
-	a. using r.m.s value <br />
-	b. using absolute value <br />
-	c. **using peak to peak value** <br />
+	a. using r.m.s value
+	b. using absolute value
+	c. **using peak to peak value**
 	d. using a voltmeter
 
-3. Period of a waveform is obtained by which of the following relation?
+3. Which of the following relation represents the time period of a waveform?
 
-	a. T = number of divisions occupied by 1 cycle×(time) <br />
-	b. T = number of divisions occupied by 1 cycle×(1⁄division) <br />
-	c. **T = number of divisions occupied by 1 cycle×(time⁄division)** <br />
+	a. T = number of divisions occupied by 1 cycle×(time)
+	b. T = number of divisions occupied by 1 cycle×(1⁄division)
+	c. **T = number of divisions occupied by 1 cycle×(time⁄division)**
 	d. T = number of divisions occupied by 1 cycle
 
 4. How is frequency related to time period?
 
-	a. square proportional <br />
-	b. not related <br />
-	c. directly proportional <br />
+	a. square proportional
+	b. not related
+	c. directly proportional
 	d. **inversely proportional**
 
 5. In Real time sampling, bandwidth is limited.
 
-	a. **True** <br />
+	a. **True**
 	b. False
 
-6. An oscilloscope with 20 to 50 GHz needs a slow speed.
+6. An oscilloscope with frequency 20 to 50 GHz will need a slow speed.
 
-	a. True <br />
+	a. True
 	b. **False**
 
-7. How many types of acquisition methods are there in a digital storage oscilloscope?
+7. In a digital storage oscilloscope, how many types of acquisition methods are present ?
 
-	a. **3** <br />
-	b. 6 <br />
-	c. 2 <br />
+	a. **3**
+	b. 6
+	c. 2
 	d. 4
 
 8. CRO can be used to measure ___________
 
-	a. Frequency <br />
-	b. AC Voltage <br />
-	c. DC Voltage <br />
+	a. Frequency
+	b. AC Voltage
+	c. DC Voltage
 	d. **All of the above**
 
-9. A CRO cannot be used for direct measurement of
+9. Which of the following parameter cannot be measured directly using a CRO?
 
-	a. Frequency <br />
-	b. **Power** <br />
-	c. Current <br />
+	a. Frequency
+	b. **Power**
+	c. Current
 	d. Voltage
 
 10. Square wave and pulse wave are same in all aspects
 
-	a. True <br />
+	a. True
 	b. **False**
 
 11. In function generator, the function selector is used to select the desired
 
-	a. Frequency <br />
-	b. **Waveform** <br />
-	c. Amplitude <br />
+	a. Frequency
+	b. **Waveform**
+	c. Amplitude
 	d. Voltage
 
 12. The selected waveform in a function generator is available at
 
-	a. VCO output <br />
-	b. **Output Jack** <br />
+	a. VCO output
+	b. **Output Jack** 
 	c. Function selector
 
 #### Allow Pitfalls: NA
@@ -162,4 +162,4 @@ Setup consists of a function generator as signal source which generates signal o
 
 #### Conclusion
 Time required to perform the virtual experiment.
-The approximate time required to understand the procedure to perform the experiment would take about 5 min. To generate data will take another 5 min. Calculating and entering the values of various entities in the Result table will take approximately 5 min. Answering the assessment questions will take about 5 min. Thus, the total time required to perform the experiment will require around 20 min.
+It will take 5 mins approximately to understand the procedure to perform the experiment. To generate data will take another 5 min. Calculating and entering the values of various entities in the Result table will take approximately 5 min. It will take about 5 mins to answer the assessment questions. Thus, the total time required to perform the experiment will require around 20 min.

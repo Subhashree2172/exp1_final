@@ -1,22 +1,22 @@
 1. CRO can be used to measure ___________
-	1. Frequency
-	2. AC Voltage
-	3. DC Voltage
-	4. **All of the above**
-2. A CRO cannot be used for direct measurement of 
-	1. Frequency
-	2. **Power**
-	3. Current
-	4. Voltage
+	a. Frequency
+	b. AC Voltage
+	c. DC Voltage
+	d. **All of the above**
+2. A CRO cannot be used for direct measurement of
+	a. Frequency
+	b. **Power**
+	c. Current
+	d. Voltage
 3. Square wave and pulse wave are same in all aspects
-	1. True
-	2. **False**
-4. In function generator, the function selector is used to select the desired 
-	1. Frequency
-	2. **Waveform**
-	3. Amplitude
-	4. Voltage 
+	a. True
+	b. **False**
+4. In function generator, the function selector is used to select the desired
+	a. Frequency
+	b. **Waveform**
+	c. Amplitude
+	d. Voltage
 5. The selected waveform in a function generator is available at
-	1. VCO output
-	2. **Output Jack**
-	3. Function selector
+	a. VCO output
+	b. **Output Jack**
+	c. Function selector

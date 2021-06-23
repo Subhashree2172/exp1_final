@@ -181,6 +181,7 @@ function on_off_cro() {
     on = 0;
     document.getElementById("canvas").style.backgroundColor = "rgba(0,255,0,0.1)"
     c.clearRect(0, 0, canvas.width, canvas.height);
+    result();
   }
 
 }
@@ -270,6 +271,7 @@ function remove_wire() {
     tour_on = 0;
     dialog.close();
   }
+  result();
 }
 //FUNCTION GENERATOR----------------------------------------------------------------------\
 var display = document.getElementById("display_canvas");
@@ -341,6 +343,8 @@ function on_off_fg() {
     disp.clearRect(0, 0, canvas.width, canvas.height);
     window.requestAnimationFrame(plotAxes);
     document.getElementById("display_canvas").style.backgroundColor = "rgba(0,255,0,0.1)"
+    result();
+    plot_condn();
   }
   count_fg = count_fg + 1;
   if (tour_on == 3) { //For demo purpose
@@ -413,6 +417,13 @@ function result() {
     document.getElementById("rms_voltage_result").textContent = ":" + peak_value + "V";
     document.getElementById("average_volatge_result").textContent = ":" + avg_value + "V";
     document.getElementById('peak_voltage_result').textContent = ":" + amp + "V";
+  }
+  else{
+    document.getElementById("timeperiod_result").textContent = ":" ;
+    document.getElementById("ptop_voltage_result").textContent = ":";
+    document.getElementById("rms_voltage_result").textContent = ":";
+    document.getElementById("average_volatge_result").textContent = ":" ;
+    document.getElementById('peak_voltage_result').textContent = ":" ;
   }
 }
 

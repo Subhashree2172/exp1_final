@@ -21,13 +21,19 @@ var signal_no = 1;
 var connect = 0; //Connect button click count
 var tour_on = 0; //tour button click count
 var dialog;
+var dialog_out;
 var y_div = 1;
 var x_div = 0.001;
 const pi = 3.14;
 var quest_no = 0;
-var quest_answered = 0;
 var peak_value = 0;
 var avg_value = 0;
+var q1_count = 0; //for question to be asked once this feature is added
+var q2_count = 0;
+var q3_count = 0;
+var q4_count = 0;
+var q5_count = 0;
+var tour_check  = 0;
 // plotAxes();-----------------------------------------------------
 function plotAxes() {
   c.clearRect(0, 0, canvas.width, canvas.height);
@@ -126,10 +132,6 @@ function yposition() {
     dialog.close();
     dialog = document.getElementById('ydivision_cro_demo');
     dialog.show();
-    dialog1 = document.getElementById('pop_up_quest_5')
-    dialog1.show();
-    quest_no = 5;
-    quest_answered = 0;
     tour_on = 10;
   }
 }
@@ -139,7 +141,7 @@ function xposition() {
     x_pos = Number(document.getElementById("xposition").value);
     plot_condn();
   }
-  if (tour_on == 7 && quest_answered == 1) { //For demo purpose
+  if (tour_on == 7 ){  //For demo purpose
     dialog.close();
     dialog = document.getElementById('xdivision_cro_demo');
     dialog.show();
@@ -152,7 +154,7 @@ function ydivision() {
     y_div = 1 / Number(document.getElementById("ydivision_input").value);
     plot_condn();
   }
-  if (tour_on == 10 && quest_answered == 1) { //For demo purpose
+  if (tour_on == 10){ //For demo purpose
     dialog.close();
     dialog = document.getElementById('xy_cro_demo');
     dialog.show();
@@ -261,6 +263,12 @@ function connect_wire() {
     dialog.show();
     tour_on = 2
   }
+  q1_count = q1_count +1;
+  if( q1_count == 1 && tour_check == 0){
+    dialog_out = document.getElementById('pop_up_quest_1');
+    dialog_out.show();
+    quest_no = 1;
+  }
 }
 
 function remove_wire() {
@@ -270,8 +278,15 @@ function remove_wire() {
   if (tour_on == 13) {
     tour_on = 0;
     dialog.close();
+    tour_check = 0;
   }
   result();
+  q5_count = q5_count +1;
+  if( q5_count == 1 && tour_check == 0){
+    dialog_out = document.getElementById('pop_up_quest_5');
+    dialog_out.show();
+    quest_no = 5;
+  }
 }
 //FUNCTION GENERATOR----------------------------------------------------------------------\
 var display = document.getElementById("display_canvas");
@@ -298,15 +313,17 @@ function amplitude() {
     plot_condn();
     result();
   }
-  if (tour_on == 6 && quest_answered == 1) { //For demo purpose
+  if (tour_on == 6 ){ //For demo purpose
     dialog.close();
     dialog = document.getElementById('xposition_cro_demo');
     dialog.show();
-    dialog1 = document.getElementById('pop_up_quest_4')
-    dialog1.show();
-    quest_no = 4;
-    quest_answered = 0;
     tour_on = 7;
+  }
+  q4_count = q4_count +1;
+  if( q4_count == 1 && tour_check == 0){
+    dialog_out = document.getElementById('pop_up_quest_4');
+    dialog_out.show();
+    quest_no = 4;
   }
 }
 
@@ -320,15 +337,17 @@ function freq() {
     plot_condn();
     result();
   }
-  if (tour_on == 5 && quest_answered == 1) { //For demo purpose
+  if (tour_on == 5 ){  //For demo purpose
     dialog.close();
     dialog = document.getElementById('amplitude_fg_demo');
     dialog.show();
-    dialog1 = document.getElementById('pop_up_quest_3')
-    dialog1.show();
-    quest_no = 3;
-    quest_answered = 0;
     tour_on = 6;
+  }
+  q3_count = q3_count +1;
+  if( q3_count == 1 && tour_check == 0){
+    dialog_out = document.getElementById('pop_up_quest_3');
+    dialog_out.show();
+    quest_no = 3;
   }
 }
 
@@ -341,7 +360,6 @@ function on_off_fg() {
   } else {
     on_fg = 0;
     disp.clearRect(0, 0, canvas.width, canvas.height);
-    window.requestAnimationFrame(plotAxes);
     document.getElementById("display_canvas").style.backgroundColor = "rgba(0,255,0,0.1)"
     result();
     plot_condn();
@@ -351,10 +369,6 @@ function on_off_fg() {
     dialog.close();
     dialog = document.getElementById('signal_select_demo');
     dialog.show();
-    dialog1 = document.getElementById('pop_up_quest_1');
-    dialog1.show();
-    quest_no = 1;
-    quest_answered = 0;
     tour_on = 4
   }
 }
@@ -379,21 +393,23 @@ function signal_selection() {
   if (on == 1) {
     window.requestAnimationFrame(plotfunc);
   }
-  if (tour_on == 4 && quest_answered == 1) {
+  if (tour_on == 4 ){
     dialog.close();
     dialog = document.getElementById('frequency_fg_demo');
     dialog.show();
-    dialog1 = document.getElementById('pop_up_quest_2')
-    dialog1.show();
     tour_on = 5;
+  }
+  q2_count = q2_count +1;
+  if( q2_count == 1 && tour_check == 0){
+    dialog_out = document.getElementById('pop_up_quest_2');
+    dialog_out.show();
     quest_no = 2;
-    quest_answered = 0;
   }
 }
-
 // Tour guide
 function tour() {
   tour_on = 1;
+  tour_check = 1;
   dialog = document.getElementById('connect_demo');
   dialog.show();
 }
@@ -461,8 +477,8 @@ function ans_display(ans,quest_no){
       break;
     }
   }
-  dialog1.close();
-  quest_answered = 1;
+ dialog_out.close();
+ quest_answered = 1;
 }
 function measurement_guide() {
   alert("Each division in CRO is 10 units.After taking the reading from the display multiply with the X-Division,Y-Division if X,Y related parameter is calculated.Press the Tour button to get familiarize with the functionality of CRO and function generator");

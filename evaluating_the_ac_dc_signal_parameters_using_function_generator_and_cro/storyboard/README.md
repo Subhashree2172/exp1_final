@@ -128,41 +128,41 @@ Setup consists of a function generator as signal source which generates signal o
 1.Sine wave average value = 2 × Peak Value / π
 2.Cosine wave average value = 2 × Peak Value / π
 3.Square wave average value = Peak Value  
-4.Sawtooth wave average value = Peak Value / 2 
+4.Sawtooth wave average value = Peak Value / 2
 5.Triangular wave average value = Peak Value / 2
 
 #### 3.Flowchart:
 
 <p align="center">
-  <img  src="images/flowchart.PNG">
+  <img  alt="flowchart" src="images/flowchart.PNG">
 </p>
 
 #### 4.Mindmap:
 
 <p align="center">
-  <img  src="images/mindmap.png">
+  <img  alt="mindmap" src="images/mindmap.png">
 </p>
 
-#### 5.Story Outline - Experiment 1
+#### 5.Storyboard - Experiment 1
 
 - Click on the Function Generator module and front panel opens up
 - Switch ON the CRO and function generator using POWER button.
 - Connect the function generator and the CRO with probe.
 
 <p align="center">
-  <img  width="500" src="images/step4_image.png">
+  <img  width="500" alt="step4_image" src="images/step4_image.png">
 </p>
 
 -	Select the required function using the function generator.
 
 <p align="center">
-  <img width="500" src="images/step_2image.png">
+  <img width="500" alt="step2_image" src="images/step_2image.png">
 </p>
 
 - 	Set the amplitude and frequency of that function using the function generator.
 
 <p align="center">
-  <img  width="500" src="images/step_3image.png">
+  <img  width="500" alt="step3_image" src="images/step_3image.png">
 </p>
 
 -	Set the required switches in the CRO appropriately to display the waveform.
@@ -171,7 +171,7 @@ Setup consists of a function generator as signal source which generates signal o
 
 
 <p align="center">
-  <img  width="500" src="images/step5_image.png">
+  <img  width="500" alt="step5_image" src="images/step5_image.png">
 </p>
 
 

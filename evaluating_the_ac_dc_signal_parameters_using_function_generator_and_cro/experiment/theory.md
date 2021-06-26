@@ -4,24 +4,27 @@
   Function Generator is an instrument that can generate common waveforms like triangle, sine, cosine, square, sawtooth, etc., It also provides options for changing the characteristics of the waveforms such as amplitude and frequency. The wave generated is available at the output jack. It can be visualised by connecting it to the CRO.
 
 <p align="center">
-    <img  width="300" heigth="250" src="images/functiongenerator.PNG">
+    <img  width="300" heigth="250" alt="Function Generator" src="images/functiongenerator.PNG">
 </p>
 
+  citation : image of function generator taken from tradeindia.
 
 ## Cathode Ray Oscilloscope - CRO:
   CRO which stands for Cathode Ray Oscilloscope is an electronic instrument used to visualize waveforms. In the early days, it is also called an oscillograph. The instrument has four sections namely display, x-axis controls, y-axis controls and triggers.
 	CRO is mainly used to analyse the properties of the waveforms  
 
   <p align="center">
-      <img  width="300" heigth="250" src="images/cro.PNG">
+      <img  width="300" heigth="250" alt="CRO" src="images/cro.PNG">
   </p>
+
+  citation : image of cro taken from amazon.in.
 
 ## Sine wave:
 Sine wave is a periodic wave defined by the function.
 *y = sin(x)*
 
 <p align="center">
-    <img  width="300" heigth="250" src="images/sine_periodic.png">
+    <img  width="300" heigth="250" alt="Sinewave" src="images/sine_periodic.png">
 </p>
 
 
@@ -30,7 +33,7 @@ Cosine wave is also a periodic wave defined by a function.
 *y=cos(x)*
 
 <p align="center">
-    <img  width="300" heigth="250" src="images/cos.png">
+    <img  width="300" heigth="250" alt="cosine_wave" src="images/cos.png">
 </p>
 
 
@@ -40,7 +43,7 @@ generally called as 50% duty cycle.
 
 
 <p align="center">
-    <img  width="300" heigth="250" src="images/square.png">
+    <img  width="300" heigth="250" alt="square_wave" src="images/square.png">
 </p>
 
 
@@ -48,7 +51,7 @@ generally called as 50% duty cycle.
   The sawtooth wave is in a way of the non-sinusoidal waveform. The shape of the wave resembles the teeth of a saw so it is named as sawtooth wave. The sawtooth waveform ramps upward and then drops sharply. But, in a "reverse sawtooth wave", the wave goes downward and then sharply rises. It can also be viewed as the extreme case of an asymmetric triangle wave. The piecewise linear function based on the floor function of time t is an instance of a sawtooth wave with period 1. A more general form, in the range from −1 to 1, and having period a, is This sawtooth function has the same phase as the sine function.
 
   <p align="center">
-      <img  width="300" heigth="250" src="images/sawtooth.PNG">
+      <img  width="300" heigth="250" alt="sawtooth_wave" src="images/sawtooth.PNG">
   </p>
 
 
@@ -57,8 +60,5 @@ Triangular waves have a triangular shape which is a periodic and non-sinusoidal 
 By repeatedly charging and discharging a capacitor from a constant current source, the triangular wave is generated. Therefore it produces a linearly ascending and descending voltage ramp.
 
 <p align="center">
-    <img  width="300" heigth="250" src="images/triangular.PNG">
+    <img  width="300" heigth="250" alt="triangular_wave" src="images/triangular.PNG">
 </p>
-
-
-  citation : image of function generator and cro taken from tradeindia and amazon.in respectively

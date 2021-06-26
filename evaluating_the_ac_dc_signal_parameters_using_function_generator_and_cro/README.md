@@ -47,15 +47,15 @@ I year Engineering Students of ECE,EEE,Marine Engineering,Automobile Engineering
 
 ## Virtualization
 
-1. **How do you intend to virtualize the experiments?**
+ 1. **How do you intend to virtualize the experiments?**
 
 By mapping the simulators,instructions and animations using the packages mentioned.
 
-2. **How will the student get a feel for a real lab?**
+ 2. **How will the student get a feel for a real lab?**
 
 The experiment window opens up the equipment front panel with all knobs in user variable state.The student can try with all adjustments abundantly and hence can learn to use the equipments.Also the student can perform the experiment with real physical experience.
 
-3. **Will you be using animations?**
+ 3. **Will you be using animations?**
 
 Using the packages mentioned.
 
@@ -76,10 +76,12 @@ Using the packages mentioned.
 
 1. **How will you collect feedback and use them?**
 
-   Using google forms.
+Using google forms.
+
 2. **What is the actual learning component?**
 
-   Usage of equipments perfoming the experiment
+Usage of equipments perfoming the experiment
+
 3. **After virtual lab experience can the student perform the experiment in real lab?**
 
-   Yes
+Yes
